@@ -1,0 +1,88 @@
+.myMap-shop-location {
+    position: relative;
+}
+
+.myMap-shop-location-bike-icon {
+    position: absolute;
+    top: 0;
+    
+    transform: translate(50%, -90%);
+    
+    color: red;
+}
+
+.myMap-your-location {
+    position: relative;
+}
+
+.myMap-your-location > span {
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(85%, -70%);
+    background-color: #fff;
+    padding: 5px;
+    font-weight: 500;
+    width: max-content;
+    color: #fff;
+    background-color: #333;
+    border-radius: 2px;
+    z-index: -100;
+    padding: 3px 10px;
+}
+
+
+
+
+.mapboxgl-popup-close-button {
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    color: #fff;
+}
+
+.mapboxgl-popup-close-button:hover {
+    background-color: darkred;
+    color: #fff;
+}
+
+
+.myMap-form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 20px;
+    padding: 0 20px;
+}
+
+.myMap-form-group > input {
+    padding: 5px 15px;
+    border: 2px solid #333;
+}
+
+.myMap-form-group > input:focus {
+    outline: none;
+}
+
+
+
+
+.myMap-shop-location-details {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(-40%, -110%);
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 60% 90%, 50% 100%, 40% 90%, 0 90%);
+}
+
+.myMap-shop-location-details-image {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%
+}
+
+.myMap-shop-location-details-image > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

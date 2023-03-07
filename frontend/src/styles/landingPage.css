@@ -1,0 +1,93 @@
+.landing__main__container
+{
+    width: 100vw;
+    background-image: linear-gradient(120deg, rgb(0, 0, 0) 40%, rgba(255, 255, 255, 0) 300%);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    overflow: hidden;
+    position: relative;
+}
+
+.small_Description
+{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.small_Description p 
+{
+    margin-bottom: 80px;
+}
+
+.small_Description button 
+{
+    width: 150px;
+    height: 40px;
+    background-color: rgb(206, 0, 0);
+    border: 1px solid rgb(206, 0, 0);
+    border: none;
+    color: #fff;
+    font-size: 19px;
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: 0.4s linear;
+}
+
+.small_Description button:hover
+{
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: rgb(250, 37, 37);
+}
+
+.small_Description p {
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 65px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.small_Description h5{
+    color: #fff;
+    margin-bottom: 50px;
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+    line-height: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.cycle__image
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cycle__image img 
+{
+    -webkit-box-reflect: below -80px linear-gradient(to right, rgba(0,0,0,0.0), rgba(0, 0, 0, 0.336));
+}
+
+.text__container
+{
+    z-index: -10;
+    position: absolute;
+    right: -220px;
+    color: rgb(255, 0, 0);
+    rotate: -90deg;
+}
+
+.text__container > p {
+    height: max-content;
+    font-size: 160px;
+    font-weight: 900;
+}

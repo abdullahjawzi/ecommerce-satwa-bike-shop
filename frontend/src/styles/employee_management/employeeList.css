@@ -1,0 +1,82 @@
+.employeeList-header {
+    display: flex;
+    align-items:  center;
+    justify-content: space-between;
+}
+
+.employeeList-header > button {
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.employeeList-header > button > svg {
+    font-size: 20px;
+}
+
+
+.employee-state-tagger {
+    
+    color: #333;
+    padding: 5px 5px;
+    font-size: 14px;
+    border-radius: 2px;
+    font-weight: 500;
+}
+
+.employee-state-tagger-admin {
+    background-color: rgb(16, 245, 169);
+}
+
+.employee-state-tagger-employee {
+    background-color: rgb(74, 231, 255);
+}
+
+.employee-state-tagger-customer {
+    background-color: rgb(194, 87, 255);
+    color: #fff;
+}
+
+
+
+.mapView-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 1000;
+    background-color: rgba(0,0,0, .7);
+}
+
+.mapView-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 70%;
+    height: 600px;
+    overflow: hidden;
+    border-radius: 5px;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    z-index: 2000;
+    padding: 30px;
+}
+
+.mapView-container-close-btn {
+    position: absolute;
+    right: 0;
+    top: 0;
+    border: none;
+    outline: none;
+    color: #fff;
+    background-color: red;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    justify-content: center;
+    cursor: pointer;
+    font-weight: bold;
+}

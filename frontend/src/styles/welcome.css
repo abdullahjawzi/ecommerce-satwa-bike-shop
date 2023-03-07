@@ -1,0 +1,57 @@
+
+.dashboard-welcome-box {
+    width: 100%;
+    padding: 30px;
+    box-shadow: 0 2px 8px rgba(0,0,0, .3);
+    border-radius: 5px;
+    position: relative;
+}
+
+.dashboard-welcome-box > h1 {
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 50px;
+    letter-spacing: 2px;
+}
+
+.dashboard-welcome-box > h1 > span {
+    font-weight: 400;
+    font-size: 30px;
+    letter-spacing: normal;
+}
+
+.dashboard-welcome-box > h6 {
+    font-size: 16px;
+    color: rgb(94, 94, 94);
+    font-weight: 400;
+}
+
+.welcome-box-current-time {
+    position: absolute;
+    bottom: 0;
+    right: 20px;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.welcome-box-img {
+    position: absolute;
+    top: 15px;
+    right: 50%;
+    width: 150px;
+    transform: rotate(10deg);
+}
+
+.welcome-box-img > img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.dashboard-request-online-service {
+    display: flex;
+    align-items: center;
+    padding: 50px 0;
+    justify-content: flex-end;
+}

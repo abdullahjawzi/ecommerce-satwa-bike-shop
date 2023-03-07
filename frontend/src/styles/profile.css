@@ -1,0 +1,147 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.profile__main__container
+{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding: 30px;
+    height: 100vh;
+}
+
+
+.left__side
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 100%;
+    border-right: 1.5px solid rgb(204, 204, 204);
+    padding-right: 150px;
+}
+
+.left__side h2
+{
+    flex-basis: 2%;
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.left__side h6
+{
+    flex-basis: 1%;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 2.5px;
+}
+
+.Personal__details__container
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-basis: 50%;
+    margin-top: 50px;
+}
+
+.label__side
+{
+    display: flex;
+    flex-direction: column;
+    margin-right: 80px;
+    justify-content: space-evenly;
+    height: 100%;
+    font-weight: 800;
+}
+.details__side
+{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+
+
+.right__side
+{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.right__side h3 
+{
+    flex-basis: 4%;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 25px;
+    font-weight: 200;
+    color: rgb(53, 53, 53);
+    text-align: center;
+}
+.form__inputs
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    flex-basis: 80%;
+}
+
+.form__inputs label
+{
+    border: 1px solid #ccc;
+    padding: 2px 20px;
+    border-radius: 5px;
+}
+
+.form__inputs label input, .form__inputs label select
+{
+    border: none;
+    width: 400px;
+    height: 30px;
+    margin: 5px 0;
+    outline: none;
+    font-size: 14px;
+}
+
+.form__inputs label select:nth-child(1)
+{
+    color: rgb(116, 116, 116);
+}
+
+.button__area
+{
+    display: flex;
+    margin-top: 50px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.button__area button
+{
+    width: 100%;
+    padding: 8px 0;
+    border: none;
+    background-color: rgb(5, 141, 0);
+    color: #fff;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 700;
+    transition: 0.4s linear;
+}
+
+.button__area button:hover
+{
+    background-color: transparent;
+    border:1px solid rgb(5, 141, 0);
+    color: rgb(5, 141, 0);
+}

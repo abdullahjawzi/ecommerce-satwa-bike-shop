@@ -1,0 +1,167 @@
+
+.card__main_contaner
+{
+    width: 320px;
+    box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.055), 0 6px 20px 0 rgba(0, 0, 0, 0.116);
+    border-radius: 0 0  8px 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    
+}
+
+.card__photo__container
+{
+    width: 100%;
+    height: 300px;
+    flex-basis: 60%;
+}
+
+.card__photo__container > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card__details__container
+{
+    flex-basis: 40%;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    padding: 20px 30px;
+}
+
+.card__item__title
+{
+    margin: 0 0 15px 0;
+}
+
+.card__item__title h4
+{
+    font-size: 19px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+    color: rgb(73, 73, 73);
+}
+
+.card__item__title p
+{
+    font-size: 14px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(153, 153, 153);
+
+    overflow: hidden;
+
+    -webkit-line-clamp: 3;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+
+.card__item__prize {
+    margin-bottom: 10px;
+}
+
+.card__item__prize > p {
+    font-weight: 300;
+    
+    color: rgb(73, 73, 73);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    margin-bottom: 2px;
+}
+
+.card__item__prize > div {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.card__item__prize > div > h5 
+{
+    font-size: 18px;
+    color: #e90000;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 400;
+    margin: 0;
+}
+
+.card__item__prize > div > p 
+{
+    text-decoration: line-through 2px solid #c5c5c5;
+    font-size: 18px;
+    color: #c5c5c5;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 400;
+    margin: 0;
+} 
+
+.card_item_color
+{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.card_item_color p 
+{
+    font-weight: 300;
+    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    margin-bottom: 2px;
+    color: rgb(73, 73, 73);
+}
+
+.color_span__container
+{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 10px;
+}
+.color_span__container span 
+{
+    width: 15px;
+    height: 15px;
+    margin-right: 15px;
+    border-radius: 50%;
+}
+
+.color_span__container span:nth-child(1)
+{
+    background-color: #e90000;
+}
+.color_span__container span:nth-child(2)
+{
+    background-color: #f5f100;
+}
+.color_span__container span:nth-child(3)
+{
+    background-color: #2ab600;
+}
+.color_span__container span:nth-child(4)
+{
+    background-color: #000000;
+}
+
+.card__item_viewmore-btn {
+    padding: 8px 15px;
+    border: 2px solid lightgray;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: rgb(251, 244, 244);
+    color: #333;
+    font-weight: 500;
+    transition: all .3s ease;
+}
+
+.card__item_viewmore-btn:hover {
+    background-color: #333;
+    color: #fff;
+}

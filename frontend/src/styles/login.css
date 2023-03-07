@@ -1,0 +1,15 @@
+.login-form {
+    width: 400px;
+    box-shadow: 0px 0px 5px rgba(0,0,0, .2);
+    padding: 50px 30px;
+}
+
+.login-form-title {
+    margin-bottom: 30px;
+}
+
+.auth-btn {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
