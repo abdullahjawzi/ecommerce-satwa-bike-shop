@@ -17,6 +17,8 @@ The showroom displays all the products along with details available for purchase
 
 
 The requesting service is an emergency feature where clients can request for service anywhere in the city. Once request is approved, A service team will be dispatched.
+![Request service 04](https://user-images.githubusercontent.com/119050276/224535935-9220dd9e-999f-4671-b994-d86da737b684.JPG)
+
 
 The warehouse management feature manages all inventory data of all products and allocates the movement of products from the warehouse to the showroom.
 
