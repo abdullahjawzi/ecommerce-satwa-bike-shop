@@ -1,7 +1,21 @@
 # ecommerce-satwa-bike-shop
 This is a MERN stack ecommerce management system for satwa bike shop which contains Customer, Staff and Admin operations each with their unique features.
 
+
+## Screenshots
+
+A sleek designed landing page for all three types of users.
 ![landing page 01](https://user-images.githubusercontent.com/119050276/224534270-a7434de7-f38d-447f-8853-3df91e8713ef.JPG)
+
+The admin dashboard with all the features the systems offers.
+
+The showroom displays all the products along with details available for purchase. 
+
+The requesting service is an emergency feature where clients can request for service anywhere in the city. Once request is approved, A service team will be dispatched.
+
+The warehouse management feature manages all inventory data of all products and allocates the movement of products from the warehouse to the showroom.
+
+
 
 
 
@@ -51,9 +65,7 @@ This is a MERN stack ecommerce management system for satwa bike shop which conta
 - **Database:** MongoDB
 
 
-## Screenshots
 
-![Landing page](https://photos.app.goo.gl/2V23xSe1VzvAUMZ98)
 
 
 
