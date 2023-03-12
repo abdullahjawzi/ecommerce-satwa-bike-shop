@@ -21,6 +21,7 @@ The requesting service is an emergency feature where clients can request for ser
 
 
 The warehouse management feature manages all inventory data of all products and allocates the movement of products from the warehouse to the showroom.
+![Warehouse management 06](https://user-images.githubusercontent.com/119050276/224536046-4c705875-657d-494a-921c-304eaf5fbda0.JPG)
 
 
 
