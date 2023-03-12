@@ -7,10 +7,14 @@ This is a MERN stack ecommerce management system for satwa bike shop which conta
 A sleek designed landing page for all three types of users.
 ![landing page 01](https://user-images.githubusercontent.com/119050276/224534270-a7434de7-f38d-447f-8853-3df91e8713ef.JPG)
 
+
 The admin dashboard with all the features the systems offers.
 ![Admin dash 02](https://user-images.githubusercontent.com/119050276/224535774-e1ecaa63-60e7-4614-8c53-a4ca9f7dd8d6.JPG)
 
-The showroom displays all the products along with details available for purchase. 
+
+The showroom displays all the products along with details available for purchase.
+![showroom 03](https://user-images.githubusercontent.com/119050276/224535862-20e42764-9e08-4a7f-8b9c-8d2f55caacf0.JPG)
+
 
 The requesting service is an emergency feature where clients can request for service anywhere in the city. Once request is approved, A service team will be dispatched.
 
